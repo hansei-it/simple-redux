@@ -3,7 +3,8 @@ import counter from './counter';
 import people from './people';
 
 const rootReducer = combineReducers({
-  counter
+  counter,
+  people
 });
 
 export default rootReducer;
